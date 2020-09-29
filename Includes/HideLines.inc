@@ -13,7 +13,7 @@ DynamicVariables = 1
 
 [ConditionalIndex]
 Measure = Calc
-IfCondition = ( (#UltraMinimalism#=0) || ( ([Hour]=#CurrentLine#) || ([Hour]=#CurrentLine#-1) || ([Hour]/#CurrentLine#=12) ) )
+IfCondition = (#UltraMinimalism#=0) || ( ([Hour]=#CurrentLine#) || ([Hour]=#CurrentLine#-1) || ([Hour]/#CurrentLine#=12) )
 IfTrueAction = [!SetVariable ChosenLine "null"]
 IfFalseAction = [!SetVariable ChosenLine Line#CurrentLine#]
 IfConditionMode = 1
