@@ -3,12 +3,6 @@ Index = 3
 LineSizeMultiplier = 1
 DrawLine = "Line [LineStartX],[LineStartY],[LineEndX],[LineEndY] | StrokeWidth [LineWidth] | Stroke Color #LineColor#"
 
-[Border]
-Meter = Shape
-Shape = Ellipse [Center],[Center],(#Size#/2) | StrokeWidth #BackgroundBorderWidth# | FillColor #BackgroundColor#
-DynamicVariables = 1
-UpdateDivider = -1
-
 [DrawLines]
 Measure = Plugin
 Plugin = ActionTimer

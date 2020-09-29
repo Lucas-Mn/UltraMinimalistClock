@@ -1,6 +1,7 @@
 [Variables]
 ; options
 UltraMinimalism = 1
+ShowTimeOnHover = 1
 
 ; colors
 NeedleColor = 255,255,255,255
